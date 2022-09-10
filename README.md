@@ -10,4 +10,53 @@
 * [Inspiration 6](https://www.elegantthemes.com/layouts/technology/video-game-landing-page)
 
 
+
+## How to contribute
+
+* Fork the Poject
+
+* Clone the project
+
+```bash
+  git clone https://github.com/your-username/techtalk
+```
+
+* Go to the project directory
+
+```bash
+  cd my-project
+```
+
+* Install dependencies
+
+```bash
+  npm install
+```
+
+* Start the server
+
+```bash
+  npm run start
+```
+
+* Make changes
+
+* integrate your changes
+
+```bash
+  git add . && git commit -m "your commit mess
+```
+
+* Push to your copy of the project
+
+```bash
+  git push 
+```
+
+* Create pull request
+
+And that's it. You've made your open source contribution to tech talk
+
+
+
 ![Techtalk 6.0](./img/techtalk6.0.jpg)
