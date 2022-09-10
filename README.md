@@ -24,27 +24,15 @@
 * Go to the project directory
 
 ```bash
-  cd my-project
+  cd techtalk
 ```
 
-* Install dependencies
-
-```bash
-  npm install
-```
-
-* Start the server
-
-```bash
-  npm run start
-```
-
-* Make changes
+* Make changes or create a new landing page entirely
 
 * integrate your changes
 
 ```bash
-  git add . && git commit -m "your commit mess
+  git add . && git commit -m "your commit message"
 ```
 
 * Push to your copy of the project
