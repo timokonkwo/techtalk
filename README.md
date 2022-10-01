@@ -1,4 +1,4 @@
-# tecktalk
+# tecktalk Landing Page
 
 ## Design Inspirations
 
