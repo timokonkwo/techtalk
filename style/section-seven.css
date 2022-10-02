@@ -1,0 +1,32 @@
+.section-seven{
+    position: absolute;
+    z-index: 11;
+    margin-top: 190rem;
+    text-align: center;
+    width: 100%;
+}
+
+.sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-seven h3{
+    flex-basis: 100%;
+    font-size: 3rem;
+    color: var(--color-main);
+    margin: 2rem 0;
+}
+
+.section-seven img{
+    height: 10rem;
+    width: auto;
+    opacity: 0.5;
+    filter: contrast(30%);
+}
+
+.section-seven img:hover{
+    opacity: 1;
+    filter: contrast(1);
+}

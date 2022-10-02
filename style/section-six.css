@@ -1,0 +1,52 @@
+.section-six{
+    position: absolute;
+    margin-top: 120rem;
+    width: 100%;
+    padding: 0 4rem;
+}
+
+.top-color{
+    background-color: var(--color-sub);
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: var(--font-main);
+}
+
+.top-color h1{
+    font-size: 3rem;
+    color: var(--color-text-other);
+}
+
+.events{
+    display: grid;
+    width: 100%;
+}
+
+.calls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: var(--font-main);
+}
+
+.calls img{
+    height: 6rem;
+    width: 6rem;
+    margin: 2rem 0;
+}
+
+.calls button{
+    padding: 1rem 2rem;
+    outline: none;
+    font-family: var(--font-main);
+    background-color: var(--color-sub);
+    color: var(--color-text-other);
+    border: none;
+    border-radius: 2rem;
+}
+.calls button:hover{
+    background-color: var(--color-main);
+}

@@ -1,0 +1,89 @@
+.footer{
+    margin-top: 210rem;
+    position: absolute;
+    width: 100%;
+    background: var(--color-main);
+    color: var(--color-text-other);
+    padding: 2rem 0;
+}
+
+.footing{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.footing h3{
+    font-family: var(--font-main);
+    font-size: 1.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.footing p{
+    font-family: var(--font-sub);
+}
+
+.contact ul{
+    list-style: none;
+}
+
+.contact ul a{
+    color: var(--color-text-other);
+    font-family: var(--font-sub);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.contact ul a:hover{
+    color: var(--color-sub);
+}
+
+.socials a{
+    color: var(--color-text-other);
+    padding: 0 0.3rem;
+}
+.socials a:hover{
+    color: var(--color-sub);
+}
+
+.footer hr{
+    width: 88%;
+    margin-left: 5%;
+}
+
+.foots{
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.foots p{
+    font-family: var(--font-main);
+    font-size: 1.7rem;
+}
+
+.foots label{
+    margin-left: auto;
+}
+
+.foots input{
+    width: 20rem;
+    padding: 0.5rem;
+    outline: none;
+    border: 0.01rem solid var(--color-sub);
+    border-radius: 1rem;
+}
+
+.foots label i{
+    position: absolute;
+    background: var(--color-sub);
+    padding: 0.46rem 0.9rem;
+    margin-left: -3%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: 0.01rem solid var(--color-sub);
+}
+
+.foots label i:hover{
+    background: var(--color-main);
+}

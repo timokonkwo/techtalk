@@ -1,0 +1,66 @@
+.section-four{
+    position: absolute;
+    z-index: 11;
+    background-color: var(--color-blank);
+    margin-top: 50rem;
+    width: 100%;
+}
+
+.section-four hr{
+    width: 5%;
+    margin-top: 1.3rem;
+    margin-left: 1.3rem;
+    border: 0.05rem solid var(--color-main);
+    border-radius: 1rem;
+    position: absolute;
+}
+
+.section-four h1{
+    font-family: var(--font-main);
+    font-size: 2rem;
+    padding: 1.5rem 1rem;
+    color: var(--color-sub);
+}
+
+.segment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--font-sub);
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    color: var(--color-main);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 20rem;
+    width: auto;
+    margin: 3rem 0;
+}
+
+.card{
+    margin: 0 1rem;    
+    background-color: var(--color-text-other);
+    border-radius: 0.3rem;
+    font-family: var(--font-sub);
+    color: var(--color-main);
+}
+
+.card .fa-solid{
+   color: var(--color-sub);
+}
+
+.card p{
+    padding: 0 1rem;    
+    font-weight: 500;
+}
+
+.card:hover{
+    background-color: var(--color-main);
+    color: var(--color-text-other);
+}
+

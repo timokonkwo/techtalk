@@ -1,0 +1,37 @@
+@import url('http://fonts.cdnfonts.com/css/alice-2');
+@import url('http://fonts.cdnfonts.com/css/merriweather');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-main: 'Alice', sans-serif;
+    --font-sub: 'Merriweather', sans-serif;
+
+    --color-main: #0A1D30;
+    --color-sub: #B70309;
+    --color-text: #4d4d4d;
+    --color-text-other: #f0eac8;
+    --color-blank: rgb(252, 255, 230);
+
+    --color-main-bg: 10, 29, 48;
+    --color-sub-bg: 183, 3, 9;
+    --color-text-other-bg: 228, 218, 161;
+}
+
+body{
+    margin: 0;
+}
+
+.root{
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 1rem;
+    height: 100vh;
+    scroll-behavior: smooth;
+}

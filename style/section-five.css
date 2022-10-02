@@ -1,0 +1,86 @@
+.section-five{
+    position: absolute;
+    width: 100%;
+    margin-top: 92rem;
+    z-index: 11;
+    /* background-color: var(--color-main); */
+}
+
+.section-five hr{
+    width: 5%;
+    margin-left: 2rem;
+    border: 0.05rem solid var(--color-sub);
+    border-radius: 1rem;
+}
+
+.section-five h1{
+    font-size: 2rem;
+    font-family: var(--font-main);
+    color: var(--color-main);
+    margin: 0 0 0 2rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.image{
+    height: 20rem;
+    width: 20rem;
+    margin: 0 2rem;
+    overflow: hidden;
+    border-radius: 0.2rem;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+.intro{
+    height: 3rem;
+    width: 20rem;
+    padding: 0.6rem;
+    font-family: var(--font-main);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgba(var(--color-sub-bg),0.5);
+    color: var(--color-text-other);
+    bottom: 2rem;
+    border-bottom-right-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}
+
+.intro h1{
+    color: var(--color-text-other);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.intro p{
+    visibility: hidden;
+    opacity: 0;
+    font-family: var(--font-sub);
+}
+
+.image:hover{
+    cursor: pointer;
+}
+
+.image:hover .intro{
+    height: 7rem;
+    bottom: 2rem;
+    background: var(--color-sub);
+    transition: 1s ease-in-out;
+}
+
+.image:hover p{
+    opacity: 1;
+    visibility: visible;
+    transition: .50s ease-in;
+}
