@@ -87,3 +87,9 @@
 .foots label i:hover{
     background: var(--color-main);
 }
+
+@media screen and (max-width: 950px) {
+    .footing p{
+        font-size: 0.7rem;
+    }
+}

@@ -64,3 +64,24 @@
     color: var(--color-text-other);
 }
 
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 950px) {
+    .section-four{
+        z-index: 11;
+        margin-top: 35rem;
+        height: 100vh;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .card{
+        margin-bottom: 1rem;
+        padding: 1rem 0;
+    }
+}

@@ -28,19 +28,6 @@
     margin: 2rem 0;
 }
 
-.image{
-    height: 20rem;
-    width: 20rem;
-    margin: 0 2rem;
-    overflow: hidden;
-    border-radius: 0.2rem;
-}
-
-.image img{
-    height: 100%;
-    width: 100%;
-}
-
 .intro{
     height: 3rem;
     width: 20rem;
@@ -83,4 +70,43 @@
     opacity: 1;
     visibility: visible;
     transition: .50s ease-in;
+}
+
+@media screen and (min-width: 1024px) {
+    .image{
+        height: 20rem;
+        width: 20rem;
+        margin: 0 2rem;
+        overflow: hidden;
+        border-radius: 0.2rem;
+    }
+
+    .image img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .image{
+        height: 20rem;
+        width: 100%;
+        margin: 0 2rem;
+        overflow: hidden;
+        border-radius: 0.2rem;
+    }
+
+    .image img{
+        height: 100%;
+        width: 100%;
+    }
+    .intro{
+        width: max-content;
+        overflow: hidden;
+    }
+
+    .intro h1{
+        font-size: 1.3rem;
+    }
 }

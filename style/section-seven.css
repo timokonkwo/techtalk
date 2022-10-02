@@ -30,3 +30,15 @@
     opacity: 1;
     filter: contrast(1);
 }
+
+@media screen and (max-width: 950px) {
+
+    .section-seven h3{
+        font-size: 2rem;
+    }
+
+    .section-seven img{
+        height: 6rem;
+        width: auto;
+    }
+}

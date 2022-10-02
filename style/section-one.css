@@ -67,6 +67,19 @@
 }
 
 @media screen and (max-width: 950px) {
+
+    .section-one{
+        height: 98vh;
+    }
+
+    .text-one{
+        padding: 10rem 0 33rem 0;
+    }
+
+    .section-one img{
+        z-index: -999;
+    }
+
     .text-one h3{
         font-size: 4rem;
     }
@@ -77,5 +90,11 @@
 
     .text-one p{
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-one{
+        height: 120vh;
     }
 }

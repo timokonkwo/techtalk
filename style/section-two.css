@@ -20,3 +20,44 @@
 .org small{
     color: var(--color-main);
 }
+
+@media screen and (max-width: 950px) {
+
+    .section-two{
+        margin-top: -22rem;
+    }
+
+    .org{
+        margin: 0 1rem;
+    }
+
+    .org img{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .org h2{
+        font-size: 1.4rem;
+    }
+
+    .org small{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-two{
+        display: grid;
+        grid-template-columns: auto auto;
+        place-items: center;
+        padding: 0 1rem;
+    }
+
+    .org h2{
+        font-size: 1.1rem;
+    }
+
+    .org p{
+        font-size: 0.4rem;
+    }
+}
