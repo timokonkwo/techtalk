@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/alice-2');
+@import url('http://fonts.cdnfonts.com/css/merriweather');
+
 .section-four{
     position: absolute;
     z-index: 11;
@@ -16,7 +19,7 @@
 }
 
 .section-four h1{
-    font-family: var(--font-main);
+    font-family: 'Alice', sans-serif;
     font-size: 2rem;
     padding: 1.5rem 1rem;
     color: var(--color-sub);
@@ -27,7 +30,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-family: var(--font-sub);
+    font-family: 'Merriweather', sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     padding: 0 1rem;
@@ -46,7 +49,7 @@
     margin: 0 1rem;    
     background-color: var(--color-text-other);
     border-radius: 0.3rem;
-    font-family: var(--font-sub);
+    font-family: 'Merriweather', sans-serif;
     color: var(--color-main);
 }
 

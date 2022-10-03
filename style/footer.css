@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/alice-2');
+@import url('http://fonts.cdnfonts.com/css/merriweather');
+
 .footer{
     margin-top: 210rem;
     position: absolute;
@@ -15,13 +18,13 @@
 }
 
 .footing h3{
-    font-family: var(--font-main);
+    font-family: 'Alice', sans-serif;
     font-size: 1.7rem;
     margin-bottom: 0.7rem;
 }
 
 .footing p{
-    font-family: var(--font-sub);
+    font-family: 'Merriweather', sans-serif;
 }
 
 .contact ul{
@@ -30,7 +33,7 @@
 
 .contact ul a{
     color: var(--color-text-other);
-    font-family: var(--font-sub);
+    font-family: 'Merriweather', sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
 }
@@ -58,7 +61,7 @@
 }
 
 .foots p{
-    font-family: var(--font-main);
+    font-family: 'Alice', sans-serif;
     font-size: 1.7rem;
 }
 

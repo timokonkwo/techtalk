@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/alice-2');
+@import url('http://fonts.cdnfonts.com/css/merriweather');
+
 .section-six{
     position: absolute;
     margin-top: 120rem;
@@ -11,7 +14,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    font-family: var(--font-main);
+    font-family: 'Alice', sans-serif;
 }
 
 .top-color h1{
@@ -29,7 +32,7 @@
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    font-family: var(--font-main);
+    font-family: 'Alice', sans-serif;
 }
 
 .calls img{
@@ -41,7 +44,7 @@
 .calls button{
     padding: 1rem 2rem;
     outline: none;
-    font-family: var(--font-main);
+    font-family: 'Alice', sans-serif;
     background-color: var(--color-sub);
     color: var(--color-text-other);
     border: none;

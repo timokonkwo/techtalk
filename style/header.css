@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/alice-2');
+@import url('http://fonts.cdnfonts.com/css/merriweather');
+
 header{
     position: -webkit-sticky;
     position: sticky;
@@ -5,7 +8,7 @@ header{
     flex-direction: row;
     align-items: center;
     padding: 0 1rem;
-    font-family: var(--font-main);
+    font-family: 'Alice', sans-serif;
     z-index: 999;
     top: 0;
     transition: 0.3s ease-in-out;
@@ -52,7 +55,7 @@ nav ul{
     text-decoration: none;
     margin-left: 1rem;
     color: var(--color-text-other);
-    font-family: var(--font-sub);    
+    font-family: 'Merriweather', sans-serif;    
 }
 
 .navbar a:hover{
