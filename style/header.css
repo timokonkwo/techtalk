@@ -38,18 +38,21 @@ header{
 
 nav{
     margin-left: auto;
+    z-index: 10;
 }
 
 nav ul{
     display: flex;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar a{
     text-decoration: none;
     margin-left: 1rem;
     color: var(--color-text-other);
-    font-family: var(--font-sub);
+    font-family: var(--font-sub);    
 }
 
 .navbar a:hover{
@@ -64,7 +67,7 @@ nav .icon-burger{
     display: none;
     position: absolute;
     right: 5%;
-    top: auto;
+    top: 50%;
     transform: translateY(-50%);
 }
 nav .icon-burger .line{
@@ -92,6 +95,7 @@ nav .icon-burger .line{
         justify-content: space-evenly;
         overflow: hidden;
         transition: all ease-in-out 0.5s;
+        z-index: 999;
     }
 
     .navs a{
@@ -112,5 +116,11 @@ nav .icon-burger .line{
     }
     nav :checked ~ .icon-burger .line:nth-child(2){
         opacity: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hero h1{
+        display: none;
     }
 }

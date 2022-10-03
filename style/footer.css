@@ -93,3 +93,31 @@
         font-size: 0.7rem;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .footer{
+        margin-top: 413rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .footing{
+        display: grid;
+        row-gap: 2rem;
+        margin-left: -15%;
+    }
+
+    .foots{
+        display: grid;
+        row-gap: 2rem;
+    }
+
+    .foots p{
+        font-size: 1.2rem;
+    }
+
+    .foots input{
+        margin-left: -9%;
+    }
+}

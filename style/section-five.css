@@ -28,20 +28,6 @@
     margin: 2rem 0;
 }
 
-.intro{
-    height: 3rem;
-    width: 20rem;
-    padding: 0.6rem;
-    font-family: var(--font-main);
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    position: absolute;
-    background: rgba(var(--color-sub-bg),0.5);
-    color: var(--color-text-other);
-    bottom: 2rem;
-    border-bottom-right-radius: 0.2rem;
-    border-bottom-left-radius: 0.2rem;
-}
 
 .intro h1{
     color: var(--color-text-other);
@@ -57,13 +43,6 @@
 
 .image:hover{
     cursor: pointer;
-}
-
-.image:hover .intro{
-    height: 7rem;
-    bottom: 2rem;
-    background: var(--color-sub);
-    transition: 1s ease-in-out;
 }
 
 .image:hover p{
@@ -85,6 +64,29 @@
         height: 100%;
         width: 100%;
     }
+
+    .intro{
+        height: 3rem;
+        width: 20rem;
+        padding: 0.6rem;
+        font-family: var(--font-main);
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: absolute;
+        background: rgba(var(--color-sub-bg),0.5);
+        color: var(--color-text-other);
+        bottom: 2rem;
+        border-bottom-right-radius: 0.2rem;
+        border-bottom-left-radius: 0.2rem;
+    }
+
+    .image:hover .intro{
+        height: 7rem;
+        bottom: 2rem;
+        background: var(--color-sub);
+        transition: 1s ease-in-out;
+    }
+    
 }
 
 @media screen and (max-width: 950px) {
@@ -102,11 +104,64 @@
         width: 100%;
     }
     .intro{
+        height: 3rem;
+        padding: 0.6rem;
+        font-family: var(--font-main);
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: absolute;
+        background: rgba(var(--color-sub-bg),0.5);
+        color: var(--color-text-other);
+        bottom: 2rem;
+        border-bottom-right-radius: 0.2rem;
+        border-bottom-left-radius: 0.2rem;
+
         width: max-content;
         overflow: hidden;
     }
 
+    .image:hover .intro{
+        height: 7rem;
+        bottom: 2rem;
+        background: var(--color-sub);
+        transition: 1s ease-in-out;
+    }
+
     .intro h1{
         font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-five{
+        margin-top: 140rem;
+    }
+
+    .box{
+        display: grid;
+        row-gap: 1rem;
+        width: 80%;
+    }
+
+    .intro{
+        height: 3rem;
+        width: 100%;
+        padding: 0.6rem;
+        font-family: var(--font-main);
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: relative;
+        background: rgba(var(--color-sub-bg),0.5);
+        color: var(--color-text-other);
+        bottom: 2rem;
+        border-bottom-right-radius: 0.2rem;
+        border-bottom-left-radius: 0.2rem;
+    }
+
+    .image:hover .intro{
+        height: 7rem;
+        bottom: 2rem;
+        background: var(--color-sub);
+        transition: 1s ease-in-out;
     }
 }

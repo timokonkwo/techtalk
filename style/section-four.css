@@ -85,3 +85,21 @@
         padding: 1rem 0;
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    .section-four{
+        height: 130vh;
+    }
+
+    .segment{
+        display: grid;
+        place-items: center;
+        row-gap: 2rem;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}

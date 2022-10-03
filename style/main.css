@@ -35,3 +35,10 @@ body{
     height: 100vh;
     scroll-behavior: smooth;
 }
+
+@media screen and (max-width: 450px) {
+    .root{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}

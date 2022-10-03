@@ -38,7 +38,13 @@
     }
 
     .section-seven img{
-        height: 6rem;
+        height: 3rem;
         width: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-seven{
+        margin-top: 400rem;
     }
 }

@@ -50,3 +50,38 @@
 .calls button:hover{
     background-color: var(--color-main);
 }
+
+@media screen and (max-width: 450px) {
+    .section-six{
+        margin-top: 209rem;
+        padding: 0 1rem;
+        overflow: visible;
+    }
+
+    .top-color img{
+        height: 5rem;
+    }
+
+    .top-color h1{
+        font-size: 1.6rem;
+    }
+
+    .calls{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .calls img{
+        height: 23rem;
+        width: 19rem;
+    }
+
+    .calls button{
+        margin: 0.5rem 0;
+        width: 70%;
+    }
+
+    .cal, .address{
+        display: none;
+    }
+}
