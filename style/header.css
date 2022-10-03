@@ -83,6 +83,11 @@ nav .icon-burger .line{
 }
 
 @media screen and (max-width: 950px) {
+
+    header{
+        position: relative;
+    }
+    
     nav .navbar{
         float: none;
         position: fixed;

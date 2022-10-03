@@ -121,6 +121,10 @@
     }
 
     .foots input{
+        width: 17rem;
         margin-left: -9%;
+    }
+    .foots label i{
+        margin-left: -11%;
     }
 }
