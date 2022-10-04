@@ -1,5 +1,5 @@
-@import url('http://fonts.cdnfonts.com/css/alice-2');
-@import url('http://fonts.cdnfonts.com/css/merriweather');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&display=swap');
 *,
 *::before,
 *::after{
@@ -10,8 +10,8 @@
 }
 
 :root{
-    --font-main: 'Alice', sans-serif;
-    --font-sub: 'Merriweather', sans-serif;
+    --font-main: 'Alice', serif;
+    --font-sub: 'Merriweather', serif;
 
     --color-main: #0A1D30;
     --color-sub: #B70309;

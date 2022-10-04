@@ -1,6 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/alice-2');
-@import url('http://fonts.cdnfonts.com/css/merriweather');
-
 .section-three{
     height: 30rem;
     width: 100%;
@@ -30,7 +27,7 @@
     text-align: center;
     position: absolute;
     color: var(--color-text-other);
-    font-family: 'Merriweather', sans-serif;
+    font-family: var(--font-sub);
     font-size: 4rem;
     display: flex;
     justify-content: space-around;

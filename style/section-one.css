@@ -39,7 +39,7 @@
 
 .text-one p{
     margin: 1rem 0;
-    font-family: 'Merriweather', sans-serif;
+    font-family: var(--font-sub);
     font-size: 1.3rem;
     font-weight: 900;
     color: var(--color-sub);
@@ -50,7 +50,7 @@
     display: inline-block;
     padding: 0.7rem 2rem;
     margin: 3rem 0;
-    font-family: 'Merriweather', sans-serif;
+    font-family: var(--font-sub);
     letter-spacing: 0.3rem;
     font-weight: 700;
     background: var(--color-text-other);
