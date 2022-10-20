@@ -4,16 +4,6 @@
 
 **Tech Talk** is not only about talks alone, it is also where one can get valuable advice about starting a career or managing a business. We feature alot of industry professionals that come and talk to us about their various endeavours and give pointers to us.
 
-## Design Inspirations
-
-* [Inspiration 1](https://preview.colorlib.com/#evento)
-* [Inspiration 2](https://preview.colorlib.com/#eventotemplate)
-* [Inspiration 3](https://preview.colorlib.com/#umeet)
-* [Inspiration 4](https://preview.colorlib.com/#event)
-* [Inspiration 5](https://www.elegantthemes.com/layouts/events/virtual-conference-landing-page/live-demo)
-* [Inspiration 6](https://www.elegantthemes.com/layouts/technology/video-game-landing-page)
-
-
 
 ## How to contribute
 Below is a guide on how to contribute to the **_TechTalk_** project:
