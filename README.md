@@ -4,7 +4,7 @@
 
 At tech talk, those wanting to get into tech and those already in tech are taught how to start, navigate and build a flawless career in tech by industry tech (code and no-code) professionals from the leading tech giants - Microsoft, Meta, Apple, Amazon, Netflix, Google and many other top companies.
 
-Tech Talk is designed for the purpose of creating awareness in the _Tech_ field and also help techies and non-techies to learn how to start and manage their careers in tech.
+Tech Talk is designed for the purpose of creating awareness in the _Tech_ field and also to help techies and non-techies to learn how to start and manage their careers in tech.
 
 **Tech Talk** is not only about talks alone. It also features opportunities for developers and non-developers in tech.
 
