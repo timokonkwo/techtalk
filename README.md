@@ -1,9 +1,21 @@
-# TechTalk
+# Tech Talk 
 
-**_Tech Talk_** is an open-source event hosted by **SoftAmplify Technologies** for the purpose of creating awareness in the _Tech_ field and also help techies and non-techies to know about how to start and manage their careers in tech.
+**_Tech Talk_** is an open-source event by **Tim Okonkwo** and powered by **SoftAmplify Technologies**
 
-**Tech Talk** is not only about talks alone, it is also where one can get valuable advice about starting a career or managing a business. We feature alot of industry professionals that come and talk to us about their various endeavours and give pointers to us.
+At tech talk, those wanting to get into tech and those already in tech are taught how to start, navigate and build a flawless career in tech by industry tech (code and no-code) professionals from the leading tech giants - Microsoft, Meta, Apple, Amazon, Netflix, Google and many other top companies.
 
+Tech Talk is designed for the purpose of creating awareness in the _Tech_ field and also help techies and non-techies to learn how to start and manage their careers in tech.
+
+**Tech Talk** is not only about talks alone. It also features opportunities for developers and non-developers in tech.
+
+## Tech Talk Guests
+- Tech Founders
+- Senior Software Engineers
+- Recruiters
+- Product designers - UI/UX Desginers
+- Open source advocates
+- Developer advocates
+- Etc
 
 ## How to contribute
 Below is a guide on how to contribute to the **_TechTalk_** project:
