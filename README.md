@@ -17,6 +17,13 @@ Tech Talk is designed for the purpose of creating awareness in the _Tech_ field 
 - Developer advocates
 - Etc
 
+## Tech Talk Attendees
+- Aspiring developers (code and no-code)
+- Junior and senior developers (code and no-code)
+- Product designers
+- Recruiters
+- Anyone with keen interest in tech
+
 ## How to contribute
 Below is a guide on how to contribute to the **_TechTalk_** project:
 
