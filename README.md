@@ -60,5 +60,5 @@ Below is a guide on how to contribute to the **_TechTalk_** project:
 And that's it. You've made your open source contribution to tech talk
 
 
-
+## Last edition of tech talk
 ![Techtalk 6.0](./img/techtalk6.0.jpg)
