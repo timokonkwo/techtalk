@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -9,29 +10,21 @@
       content="Tech Talk 7.0 | Powered by Softamplify Technologies"
     />
     <!-- favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" />
 
     <!-- css -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
     <link
-      href="css/materialdesignicons.min.css"
+      href="{% static 'css/materialdesignicons.min.css' %}"
       rel="stylesheet"
       type="text/css"
     />
-    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/style.min.css' %}" rel="stylesheet" type="text/css" />
   </head>
 
   <body data-spy="scroll" data-target="#navbar" data-offset="20">
     <!-- Loader -->
-    <div id="preloader">
-      <div id="status">
-        <div class="spinner">
-          <div class="bounce1"></div>
-          <div class="bounce2"></div>
-          <div class="bounce3"></div>
-        </div>
-      </div>
-    </div>
+
 
     <!--Navbar Start-->
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
@@ -39,13 +32,13 @@
         <!-- LOGO -->
         <a class="navbar-brand logo" href="/" title="Tech Talk 7.0 | Powered by Softamplify Technologies">
           <img
-            src="images/logo-dark.png"
+            src="{% static 'images/logo-dark.png' %}"
             alt=""
             class="logo-dark"
             height="30"
           />
           <img
-            src="images/logo-light.png"
+            src="{% static 'images/logo-light.png' %}"
             alt=""
             class="logo-light"
             height="30"
@@ -94,7 +87,7 @@
     <!-- Hero Start -->
     <section
       class="hero-8 bg-center position-relative"
-      style="background-image: url(images/hero.jpg)"
+      style="background-image: url({% static 'images/hero.jpg' %})"
       id="home"
     >
       <div class="bg-overlay bg-dark"></div>
@@ -159,12 +152,12 @@
             <div class="position-relative">
               <div class="ms-5 features-img">
                 <img
-                  src="images/tt.jpg"
+                  src="{% static 'images/tt.jpg' %}"
                   alt=""
                   class="img-fluid d-block mx-auto rounded shadow"
                 />
               </div>
-              <img src="images/dot-img.png" alt="" class="dot-img-left" />
+              <img src="{% static 'images/dot-img.png' %}" alt="" class="dot-img-left" />
             </div>
           </div>
         </div>
@@ -250,7 +243,7 @@
     <section class="section bg-gradient-primary">
       <div
         class="bg-overlay-img"
-        style="background-image: url(images/demos.png)"
+        style="background-image: url({% static 'images/demos.png' %})"
       ></div>
       <div class="container">
         <div class="row justify-content-center">
@@ -299,7 +292,7 @@
             >
               <div class="position-relative overflow-hidden">
                 <img
-                  src="images/mm.jpg"
+                  src="{% static 'images/mm.jpg' %}"
                   alt="Mohammed Hashem"
                   class="img-fluid img-speaker d-block mx-auto"
                 />
@@ -343,7 +336,7 @@
             >
               <div class="position-relative overflow-hidden">
                 <img
-                  src="images/tim.jpg"
+                  src="{% static 'images/tim.jpg' %}"
                   alt="Tim Okwonkwo"
                   class="img-fluid img-speaker d-block mx-auto"
                 />
@@ -405,7 +398,7 @@
                 <span class="badge badge-soft-primary">Tech Talk 1.0</span>
                 <div class="d-flex align-items-center mt-4 pt-2">
                   <img
-                    src="images/t1.png"
+                    src="{% static 'images/t1.png' %}"
                     alt="Tech talk Banner"
                     class="img img-fluid"
                   />
@@ -420,7 +413,7 @@
                 <span class="badge badge-soft-primary">Tech Talk 2.0</span>
                 <div class="d-flex align-items-center mt-4 pt-2">
                   <img
-                    src="images/t2.png"
+                    src="{% static 'images/t2.png' %}"
                     alt="Tech talk Banner"
                     class="img img-fluid"
                   />
@@ -435,7 +428,7 @@
                 <span class="badge badge-soft-primary">Tech Talk 3.0</span>
                 <div class="d-flex align-items-center mt-4 pt-2">
                   <img
-                    src="images/t3.png"
+                    src="{% static 'images/t3.png' %}"
                     alt="Tech talk Banner"
                     class="img img-fluid"
                   />
@@ -450,7 +443,7 @@
                 <span class="badge badge-soft-primary">Tech Talk 4.0</span>
                 <div class="d-flex align-items-center mt-4 pt-2">
                   <img
-                    src="images/t4.png"
+                    src="{% static 'images/t4.png' %}"
                     alt="Tech Talk Banner"
                     class="img img-fluid"
                   />
@@ -465,7 +458,7 @@
                 <span class="badge badge-soft-primary">Tech Talk 5.0</span>
                 <div class="d-flex align-items-center mt-4 pt-2">
                   <img
-                    src="images/t5.png"
+                    src="{% static 'images/t5.png' %}"
                     alt="Tech Talk Banner"
                     class="img img-fluid"
                   />
@@ -484,7 +477,7 @@
     <!-- CTA start -->
     <section
       class="section bg-center w-100 bg-light"
-      style="background-image: url(images/cta-bg.png)"
+      style="background-image: url({% static 'images/cta-bg.png' %})"
     >
       <div class="container">
         <div class="row">
@@ -492,7 +485,7 @@
             <div class="card bg-gradient-primary text-center border-0">
               <div
                 class="bg-overlay-img"
-                style="background-image: url(images/demos.png)"
+                style="background-image: url({% static 'images/demos.png' %})"
               ></div>
               <div class="card-body mx-auto p-sm-5 p-4">
                 <div class="row justify-content-center">
@@ -538,10 +531,11 @@
 
             <div>
               <form
-                method="post"
+                method="POST"
                 name="myForm"
                 onsubmit="return validateForm()"
               >
+                {% csrf_token %}
                 <p id="error-msg"></p>
                 <div id="simple-msg"></div>
                 <div class="row">
@@ -587,8 +581,7 @@
                         name="phone"
                         placeholder="Enter Phone"
                         required
-                        pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
-                      />
+                        />
                     </div>
                     <button
                       type="submit"
@@ -607,7 +600,7 @@
 
           <div class="col-lg-5 ms-lg-auto">
             <div class="mt-5 mt-lg-0">
-              <img src="images/contact.png" alt="" class="img-fluid d-block" />
+              <img src="{% static 'images/contact.png' %}" alt="" class="img-fluid d-block" />
               <p class="text-muted mt-5 mb-3">
                 <i
                   class="me-2 text-muted icon icon-xs"
@@ -660,13 +653,13 @@
     <!-- Contact us end -->
 
     <!-- Footer Start -->
-    <footer class="footer" style="background-image: url(images/footer-bg.png)">
+    <footer class="footer" style="background-image: url({% static 'images/footer-bg.png' %})">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
             <div class="mb-4">
               <a href="index-1.html"
-                ><img src="images/logo-light.png" alt="" class="" height="30"
+                ><img src="{% static 'images/logo-light.png' %}" alt="" class="" height="30"
               /></a>
               <p class="text-white-50 my-4">
                 Tech talk ain't just talks. Tech talk is more than tech.
@@ -733,16 +726,16 @@
     <!-- Footer End -->
 
     <!-- javascript -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script src="{% include 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% include 'js/smooth-scroll.polyfills.min.js' %}"></script>
 
     <script src="https://unpkg.com/feather-icons"></script>
 
     <!--Particles JS-->
-    <script src="js/particles.js"></script>
-    <script src="js/particles.app.js"></script>
+    <script src="{% include 'js/particles.js' %}"></script>
+    <script src="{% include 'js/particles.app.js' %}"></script>
 
     <!-- App Js -->
-    <script src="js/app.js"></script>
+    <script src="{% include 'js/app.js' %}"></script>
   </body>
 </html>
