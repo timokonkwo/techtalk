@@ -1543,6 +1543,9 @@ h6 {
   top: 30px;
   right: -46px;
 }
+.col-sm-6{
+  transform: scale(0.8);
+}
 .team-box .team-social-item {
   position: absolute;
   left: 0;
