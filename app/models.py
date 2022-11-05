@@ -2,9 +2,9 @@ from django.db import models
 
 # Create your models here.
 class UserRegistrar(models.Model):
-    name = models.CharField(max_length=250, blank=False, null=False)
-    email = models.EmailField(unique=True, blank=False, null=False)
-    phone = models.IntegerField()
+    name = models.CharField(max_length=250)
+    email = models.EmailField(unique=True)
+    phone = models.BigIntegerField()
     
     class Meta:
         ordering = ("-email", )

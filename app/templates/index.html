@@ -24,6 +24,16 @@
 
   <body data-spy="scroll" data-target="#navbar" data-offset="20">
     <!-- Loader -->
+    
+    <div id="preloader">
+      <div id="status">
+        <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+      </div>
+    </div>
 
 
     <!--Navbar Start-->
@@ -74,7 +84,7 @@
             </li>
           </ul>
           <a title="Register Now"
-            href="https://twitter.com/i/spaces/1eaKbrbDRMdKXr"
+            href="#register"
             class="btn btn-sm rounded-pill nav-btn ms-lg-3"
             >Register Now</a
           >
@@ -106,7 +116,7 @@
                 Secrets on how to get into the BIG 5 companies as a developer.
               </p>
               <a
-                href="https://twitter.com/i/spaces/1eaKbrbDRMdKXr"
+                href="#register"
                 class="btn btn-light"
                 >Save a seat<i
                   class="icon-sm ms-1"
@@ -257,7 +267,7 @@
                 million.
               </p>
               <a
-                href="https://twitter.com/i/spaces/1eaKbrbDRMdKXr"
+                href="#register"
                 class="btn btn-lg btn-light"
                 >Just Register Now.</a
               >
@@ -499,7 +509,7 @@
                         all the <b>Knowledge</b> you need for your dream career.
                       </p>
                       <a
-                        href="https://twitter.com/i/spaces/1eaKbrbDRMdKXr"
+                        href="#register"
                         class="btn btn-light rounded-pill"
                       >
                         Register Now
@@ -523,7 +533,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h2 class="fw-bold mb-4">Register Now</h2>
+            <h2 id="register" class="fw-bold mb-4">Register Now</h2>
             <p class="text-muted mb-5">
               Don't miss a thing! Receive daily news You should connect social
               area for Any Proper Updates Anytime.
@@ -581,6 +591,7 @@
                         name="phone"
                         placeholder="Enter Phone"
                         required
+                        pattern="^(\+)?(234|0)[0-9]*?.*"
                         />
                     </div>
                     <button
@@ -726,16 +737,16 @@
     <!-- Footer End -->
 
     <!-- javascript -->
-    <script src="{% include 'js/bootstrap.bundle.min.js' %}"></script>
-    <script src="{% include 'js/smooth-scroll.polyfills.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/smooth-scroll.polyfills.min.js' %}"></script>
 
     <script src="https://unpkg.com/feather-icons"></script>
 
     <!--Particles JS-->
-    <script src="{% include 'js/particles.js' %}"></script>
-    <script src="{% include 'js/particles.app.js' %}"></script>
+    <script src="{% static 'js/particles.js' %}"></script>
+    <script src="{% static 'js/particles.app.js' %}"></script>
 
     <!-- App Js -->
-    <script src="{% include 'js/app.js' %}"></script>
+    <script src="{% static 'js/app.js' %}"></script>
   </body>
 </html>
