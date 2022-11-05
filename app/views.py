@@ -5,10 +5,12 @@ from django.utils.html import strip_tags
 from django.template.loader import render_to_string
 from django.conf import settings
 from django.http import HttpResponse
+from django.views.decorators.csrf import ensure_csrf_cookie
 
 from .models import UserRegistrar
 
 # Create your views here.
+@ensure_csrf_cookie
 def register_user(request):
     if request.method == "POST":
       name = request.POST['name']
