@@ -6,6 +6,7 @@ At tech talk, those wanting to get into tech and those already in tech are taugh
 
 Tech Talk is designed for the purpose of creating awareness in the _Tech_ field and also to help techies and non-techies to learn how to start and manage their careers in tech.
 
+
 **Tech Talk** is not only about talks alone. It also features opportunities for developers and non-developers in tech.
 
 ## Tech Talk Guests
@@ -23,6 +24,7 @@ Tech Talk is designed for the purpose of creating awareness in the _Tech_ field 
 - Product designers
 - Recruiters
 - Anyone with keen interest in tech
+
 
 ## How to contribute
 Below is a guide on how to contribute to the **_TechTalk_** project:
@@ -59,6 +61,13 @@ Below is a guide on how to contribute to the **_TechTalk_** project:
 
 And that's it. You've made your open source contribution to tech talk
 
+Get familiar with our contributing guidelines here: [CONTRIBUTING.md](techtalk/blob/master/contributing.md).
+
+
+## Code of Conduct
+Here at **Techtalk** , we value the participation of each member and want all members to have an enjoyable and fulfilling experience. Accordingly, all persons are expected to show respect and courtesy to other, throughout the community. Hence we have set up rules to ensure a safe space for all. Check out the [code of conduct here](techtalk/blob/master/codeofconduct.md).
 
 ## Last edition of tech talk
 ![Techtalk 6.0](./img/techtalk6.0.jpg)
+
+
