@@ -61,11 +61,11 @@ Below is a guide on how to contribute to the **_TechTalk_** project:
 
 And that's it. You've made your open source contribution to tech talk
 
-Get familiar with our contributing guidelines here: [CONTRIBUTING.md](techtalk/blob/main/contributing.md).
+Get familiar with our contributing guidelines here: [CONTRIBUTING.md](contributing.md).
 
 
 ## Code of Conduct
-Here at **Techtalk** , we value the participation of each member and want all members to have an enjoyable and fulfilling experience. Accordingly, all persons are expected to show respect and courtesy to other, throughout the community. Hence we have set up rules to ensure a safe space for all. Check out the [code of conduct here](techtalk/blob/main/codeofconduct.md).
+Here at **Techtalk** , we value the participation of each member and want all members to have an enjoyable and fulfilling experience. Accordingly, all persons are expected to show respect and courtesy to other, throughout the community. Hence we have set up rules to ensure a safe space for all. Check out the [code of conduct here](codeofconduct.md).
 
 ## Last edition of tech talk
 ![Techtalk 6.0](./img/techtalk6.0.jpg)
