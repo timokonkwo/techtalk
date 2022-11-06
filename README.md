@@ -25,14 +25,47 @@ Tech Talk is designed for the purpose of creating awareness in the _Tech_ field 
 - Recruiters
 - Anyone with keen interest in tech
 
+
 ## How to contribute
-There are lots of ways you can contribute to **Techtalk** . Get familiar with our contributing guidelines here: [CONTRIBUTING.md](techtalk/blob/master/contributing.md).
+Below is a guide on how to contribute to the **_TechTalk_** project:
+
+* Fork the Project
+
+* Clone the Project
+
+```bash
+  git clone https://github.com/your-username/techtalk
+```
+
+* Go to the project directory
+
+```bash
+  cd techtalk
+```
+
+* Make changes or create a new landing page entirely
+
+* Stage your changes
+
+```bash
+  git add . && git commit -m "your commit message"
+```
+
+* Push to your copy of the project (ie The one you forked)
+
+```bash
+  git push 
+```
+
+* Create pull request
+
+And that's it. You've made your open source contribution to tech talk
+
+Get familiar with our contributing guidelines here: [CONTRIBUTING.md](techtalk/blob/master/contributing.md).
 
 
 ## Code of Conduct
-Here at **Techtalk** , we value the participation of each member and want all members to have an enjoyable and fulfilling experience. Accordingly, all persons are expected to show respect and courtesy to other, throughout the community.
-
-To know more, check out the [code of conduct rules](techtalk/blob/master/codeofconduct.md).
+Here at **Techtalk** , we value the participation of each member and want all members to have an enjoyable and fulfilling experience. Accordingly, all persons are expected to show respect and courtesy to other, throughout the community. Hence we have set up rules to ensure a safe space for all. Check out the [code of conduct here](techtalk/blob/master/codeofconduct.md).
 
 ## Last edition of tech talk
 ![Techtalk 6.0](./img/techtalk6.0.jpg)
