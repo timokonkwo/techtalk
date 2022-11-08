@@ -1,6 +1,6 @@
 # Tech Talk 
 
-**_Tech Talk_** is an open-source event by **Tim Okonkwo** and powered by **SoftAmplify Technologies**
+**_Tech Talk_** is a recurring open-source event hosted by **Tim Okonkwo** and powered by **SoftAmplify Technologies**
 
 At tech talk, those wanting to get into tech and those already in tech are taught how to start, navigate and build a flawless career in tech by industry tech (code and no-code) professionals from the leading tech giants - Microsoft, Meta, Apple, Amazon, Netflix, Google and many other top companies.
 
