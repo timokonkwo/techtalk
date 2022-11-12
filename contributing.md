@@ -24,7 +24,7 @@ git clone https://github.com/<your-github-username>/techtalk
 **3.** Navigate to the newly created LinkFree project directory:
 
 ```bash
-cd LinkFree
+cd techtalk 
 ```
 
 **4.** Set upstream command:
