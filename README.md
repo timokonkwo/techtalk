@@ -43,7 +43,7 @@ Below is a guide on how to contribute to the **_TechTalk_** project:
   cd techtalk
 ```
 
-* Make changes or create a new landing page entirely
+* Make changes 
 
 * Stage your changes
 
